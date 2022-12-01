@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/lukeannison/.nvm/versions/node/v16.15.0/bin/node /opt/homebrew/bin/yarn add react/jsx-runtime
+
+PATH: 
+  /Users/lukeannison/Library/pnpm:/usr/local/opt/llvm/bin:/Users/lukeannison/.bun/bin:/Users/lukeannison/.nvm/versions/node/v16.15.0/bin:/Users/lukeannison/go/bin:/Users/lukeannison/go/bin:/Users/lukeannison/bin:/usr/local/bin:/Users/lukeannison/Library/pnpm:/usr/local/opt/llvm/bin:/Users/lukeannison/.bun/bin:/Users/lukeannison/.nvm/versions/node/v16.15.0/bin:/Users/lukeannison/go/bin:/Users/lukeannison/go/bin:/Users/lukeannison/bin:/usr/local/bin:/Users/lukeannison/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/lukeannison/.cargo/bin:/Users/lukeannison/go/bin:/Users/lukeannison/go/bin:/usr/local/go/bin:/Users/lukeannison/.config/nvim/autoload/plugged/vim-floaterm/bin/:/Users/lukeannison/go/bin:/Users/lukeannison/go/bin:/usr/local/go/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.15.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.npmjs.org/react%2fjsx-runtime: Request "https://registry.npmjs.org/react%2fjsx-runtime" returned a 405
+      at Request.params.callback [as _callback] (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:66147:18)
+      at Request.self.callback (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
